@@ -26,7 +26,6 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Alien::Autotools" : "1.00",
             "Alien::Build" : "2.15",
             "Alien::Build::MM" : "0.32",
             "Alien::Build::Plugin::Build::Autoconf" : "0.04",
@@ -111,7 +110,6 @@
       "generated_by" : "Dist::Zilla::Plugin::AlienBuild version 0.30",
       "requires" : {
          "share" : {
-            "Alien::Autotools" : "0",
             "Alien::Build::Plugin::Gather::IsolateDynamic" : "0.48",
             "Archive::Tar" : "0",
             "Config" : "0",

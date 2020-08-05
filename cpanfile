@@ -15,7 +15,6 @@ on 'configure' => sub {
 };
 
 on 'build' => sub {
-    requires 'Alien::Autotools' => '1.00';
     requires 'Alien::Build' => '2.15';
     requires 'Alien::Build::Plugin::Build::Autoconf' => '0.04';
     requires 'Alien::Build::Plugin::Build::Make';

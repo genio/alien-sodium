@@ -31,7 +31,7 @@ jobs:
       - name: perl -V
         run: perl -V
       - name: Install Alien Stuff
-        run: cpanm -n Alien::Build Alien::Base URI URI::Escape Mojo::DOM58 Alien::Autotools
+        run: cpanm -n Alien::Build Alien::Base URI URI::Escape Mojo::DOM58
       - name: Install Dependencies
         run: cpanm -n --installdeps .
       - name: Create a non-root user called "runner"

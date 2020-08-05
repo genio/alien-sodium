@@ -11,7 +11,6 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Interface to the libsodium library http://libsodium.org",
   "AUTHOR" => "Alex J. G. Burzy\x{144}ski <ajgb\@cpan.org>",
   "BUILD_REQUIRES" => {
-    "Alien::Autotools" => "1.00",
     "Alien::Build" => "2.15",
     "Alien::Build::MM" => "0.32",
     "Alien::Build::Plugin::Build::Autoconf" => "0.04",
@@ -52,7 +51,6 @@ my %WriteMakefileArgs = (
 );
 
 my %FallbackPrereqs = (
-  "Alien::Autotools" => "1.00",
   "Alien::Base" => "2.15",
   "Alien::Build" => "2.15",
   "Alien::Build::MM" => "0.32",
