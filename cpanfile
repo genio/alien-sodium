@@ -22,6 +22,7 @@ on 'build' => sub {
     requires 'Config';
     requires 'ExtUtils::MakeMaker';
     requires 'IPC::Cmd';
+    requires 'Sort::Versions';
 };
 
 on 'test' => sub {

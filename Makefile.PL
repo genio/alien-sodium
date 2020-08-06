@@ -18,7 +18,8 @@ my %WriteMakefileArgs = (
     "Alien::Build::Plugin::Probe::Vcpkg" => "2.15",
     "Config" => 0,
     "ExtUtils::MakeMaker" => "6.52",
-    "IPC::Cmd" => 0
+    "IPC::Cmd" => 0,
+    "Sort::Versions" => 0
   },
   "CONFIGURE_REQUIRES" => {
     "Alien::Build" => "2.15",
@@ -61,6 +62,7 @@ my %FallbackPrereqs = (
   "ExtUtils::MakeMaker" => "6.52",
   "File::Spec" => 0,
   "IPC::Cmd" => 0,
+  "Sort::Versions" => 0,
   "Test2::Suite" => 0,
   "Test2::V0" => 0,
   "Test::Alien" => 0,
