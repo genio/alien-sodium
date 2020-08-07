@@ -5,7 +5,7 @@ use warnings;
 use utf8;
 use parent 'Alien::Base';
 
-our $VERSION = '2.000';
+our $VERSION = '2.001';
 
 1;
 
