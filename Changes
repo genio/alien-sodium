@@ -1,6 +1,8 @@
 Revision history for Perl extension Alien::Sodium.
 
 {{$NEXT}}
+
+2.000     2020-08-06
   - Bump major version to use decimal versions
   - Upgrade library to version 1.0.18
   - Re-organize Changes file
